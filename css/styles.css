@@ -61,7 +61,7 @@ div .GridMain {
     text-align: center; }
   div .GridMain div .imgIndex {
     margin: 10px; }
-  div .GridMain div .titleBox {
+  div .GridMain div #titleBox {
     color: orange;
     font-family: "Tangerine";
     font-size: 1.5rem; }
@@ -925,7 +925,7 @@ div main .float {
   height: 7rem; }
   .gridFooter img {
     padding: 0.5rem; }
-  .gridFooter h1 {
+  .gridFooter #copy {
     color: black;
     font-family: "Righteous";
     font-size: 1rem;

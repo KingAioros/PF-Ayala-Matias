@@ -47,7 +47,7 @@ div{
                 margin: 10px;
             }
             //Asignamos fuente y color a los titulos
-            .titleBox{
+            #titleBox{
                 @include fuCoSi(orange,'Tangerine',1.5rem);
             }
             //Aplicamos fuente, color y padding

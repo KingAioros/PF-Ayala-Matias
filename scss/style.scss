@@ -121,7 +121,7 @@ div{
         padding: 0.5rem;
     }
     //Aplicamos fuente al footer
-    h1{
+    #copy{
         @include fuCoSi(black,'Righteous',1rem);
         text-align: center;
     }

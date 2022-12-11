@@ -1,0 +1,44 @@
+//Importar
+@import "../Utilidades/Mixin.scss";
+//Fin importar
+
+/* Estilos Clases */
+div{
+    .gridMainClases{
+        @include grid;
+        grid-template-areas: 
+        "Sepa Sepa"
+        "gridImgeClases gridImgeClases"
+        ;
+        //Centramos y damos margen a las imagenes de clases
+        .gridImgClases{
+            @include gridCeDi(gridImgeClases);
+            grid-template-areas:
+            "cImge1 cImge2 cImge3"
+            "cImge4 cImge5 cImge6"
+            ;
+        }
+        //Damos margenes a las imagenes y aplicamos grid
+        img{
+            margin: 20px;
+        }
+        .cImg1{
+            grid-area: cImge1;
+        }
+        .cImg2{
+            grid-area: cImge2;
+        }
+        .cImg3{
+            grid-area: cImge3;
+        }
+        .cImg4{
+            grid-area: cImge4;
+        }
+        .cImg5{
+            grid-area: cImge5;
+        }
+        .cImg6{
+            grid-area: cImge6;
+        }
+    }
+}

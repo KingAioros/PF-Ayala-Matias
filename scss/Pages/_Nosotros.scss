@@ -1,0 +1,70 @@
+//Importar Estilos
+@import "../Utilidades/Mixin.scss";
+@import "../Utilidades/Extend.scss";
+//Fin importar
+
+/* Estilos Nosotros */
+
+div{
+    .gridMainNos{
+        @include grid;
+        grid-template-areas: 
+        "Sepa Sepa"
+        "GridNos GridNos"
+        ;
+        .gridMainNos2{
+            @include gridCeDi(GridNos);
+            grid-template-columns: 35rem;
+            grid-template-areas: 
+            "Title Title"
+            "Text1 Img1"
+            "Text2 Img1"
+            "Text3 Img2"
+            "Text4 Img2"
+            "Text5 Img3"
+            ;
+            //Asignamos color y fuente al titulo
+            .tituloNosotros{
+                @include fuCoSiAr(orange,'Tangerine',3rem,Title);
+            }
+            .Text1{
+                @include fuCoSiAr(rgb(151, 143, 126),'Island+Moments',1rem,Text1);
+                @extend %AlignCenter;
+            }
+            
+            .Text2{
+                @include fuCoSiAr(rgb(151, 143, 126),'Island+Moments',1rem,Text2);
+                @extend %AlignCenter;
+            }
+            
+            .Text3{
+                @include fuCoSiAr(rgb(151, 143, 126),'Island+Moments',1rem,Text3);
+                @extend %AlignCenter;
+            }
+            
+            .Text4{
+                @include fuCoSiAr(rgb(151, 143, 126),'Island+Moments',1rem,Text4);
+                @extend %AlignCenter;
+            }
+            
+            .Text5{
+                @include fuCoSiAr(rgb(151, 143, 126),'Island+Moments',1rem,Text5);
+                @extend %AlignCenter;
+            }
+            .imgNosotros1{
+                grid-area: Img1;
+                @extend %imgStyle;
+            }
+            
+            .imgNosotros2{
+                grid-area: Img2;
+                @extend %imgStyle;
+            }
+            
+            .imgNosotros3{
+                grid-area: Img3;
+                @extend %imgStyle;
+            }
+        }
+    }
+}

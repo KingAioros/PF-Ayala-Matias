@@ -1,0 +1,107 @@
+//Estilos Secundarios
+
+//Estilo Logos
+@mixin maTra{
+    margin: 50px;
+    transition: 3s;
+}
+
+//Fuente y Color
+
+@mixin fuCo($color,$fuente){
+    color: $color;
+    font-family: $fuente;
+}
+
+@mixin fuCoSi($color,$fuente,$size){
+    color: $color;
+    font-family: $fuente;
+    font-size: $size;
+}
+
+@mixin fuCoSiAr($color,$fuente,$size,$area){
+    color: $color;
+    font-family: $fuente;
+    font-size: $size;
+    grid-area: $area;
+}
+
+@mixin flexCe{
+    display: flex;
+    justify-content: center;
+}
+
+@mixin flexSa{
+    display: flex;
+    justify-content: space-around;
+}
+
+@mixin gridCe($area){
+    grid-area: $area;
+    justify-content: center;
+    text-align: center;
+}
+
+@mixin gridCeDi($area){
+    display: grid;
+    grid-area: $area;
+    justify-content: center;
+}
+
+@mixin gridItDi($area){
+    display: grid;
+    grid-area: $area;
+    justify-items: center;
+    grid-template-columns: 20rem;
+}
+
+@mixin paBo{
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+@mixin gridTe($area){
+    grid-area: $area;
+    text-align: center;
+}
+
+@mixin styleHorarios{
+    outline: none;
+    border: none;
+}
+
+@mixin white{
+    background-color: whitesmoke;
+}
+
+@mixin styleButton{
+    border-radius: 6px;
+    background-color: whitesmoke;
+    opacity: 70%;
+    z-index: 3;
+}
+
+@mixin gtc25 {
+    grid-template-columns: 25rem;
+}
+
+@mixin gtc15 {
+    grid-template-columns: 15rem;
+}
+
+@mixin gtc10 {
+    grid-template-columns: 10rem;
+}
+
+@mixin gtr3 {
+    grid-template-rows: 3rem;    
+}
+
+@mixin textMenu{
+    text-shadow: 2px 2px 10px rgb(253, 213, 139);
+    transition: 1s;
+}
+
+@mixin grid{
+    display: grid;
+}

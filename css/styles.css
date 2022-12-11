@@ -1,0 +1,932 @@
+div .GridMain .gridBox1, div .GridMain .gridBox3 {
+  background-color: #faf8eb;
+  margin: 0.5rem; }
+
+div .GridMain .gridBox2, div .GridMain .gridBox4 {
+  background-color: #f2f9ff;
+  margin: 0.5rem; }
+
+div .gridMainNos .gridMainNos2 .imgNosotros1, div .gridMainNos .gridMainNos2 .imgNosotros2, div .gridMainNos .gridMainNos2 .imgNosotros3 {
+  margin: 2rem; }
+
+div .gridMainNos .gridMainNos2 .Text1, div .gridMainNos .gridMainNos2 .Text2, div .gridMainNos .gridMainNos2 .Text3, div .gridMainNos .gridMainNos2 .Text4, div .gridMainNos .gridMainNos2 .Text5, div .gridMainEst .gridMainEst2 .esteticaText1, div .gridMainEst .gridMainEst2 .esteticaText2, div .gridMainEst .gridMainEst2 .esteticaText3 {
+  align-self: center; }
+
+div .gridMainHs .cronoHorarios, div .gridMainHs .cronoHorarios .cronoTable .table_header, .gridFooter {
+  align-items: center; }
+
+div .gridMainEst .gridMainEst2 .imgEstetica1, div .gridMainEst .gridMainEst2 .imgEstetica2, div .gridMainEst .gridMainEst2 .imgEstetica3 {
+  margin: 2rem; }
+
+div #nosotrosPage, div #horariosPage, div #clasesPage, div #esteticaPage, div #contactoPage {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+div .gridMainHs .cronoHorarios .cronoTable table thead tr, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaUno, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaDos, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaTres, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaCuatro, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaCinco, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaSeis, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaSiete {
+  display: grid;
+  grid-template-columns: repeat(4, 15rem);
+  background-color: #fc7b4d;
+  margin: 0.5rem 0rem; }
+  div .gridMainHs .cronoHorarios .cronoTable table thead tr:hover, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaUno:hover, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaDos:hover, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaTres:hover, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaCuatro:hover, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaCinco:hover, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaSeis:hover, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaSiete:hover {
+    background-color: #ff6229; }
+
+/* Estilos Index */
+div .GridMain {
+  display: grid;
+  grid-template-areas: "Sepa Sepa Sepa Sepa" "Video Video Video Video" "Box1 Box2 Box3 Box4"; }
+  div .GridMain .videoYoutube {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    position: relative;
+    grid-area: Video;
+    top: -5rem; }
+  div .GridMain .gridBox1 {
+    grid-area: Box1;
+    justify-content: center;
+    text-align: center; }
+  div .GridMain .gridBox2 {
+    grid-area: Box2;
+    justify-content: center;
+    text-align: center; }
+  div .GridMain .gridBox3 {
+    grid-area: Box3;
+    justify-content: center;
+    text-align: center; }
+  div .GridMain .gridBox4 {
+    grid-area: Box4;
+    justify-content: center;
+    text-align: center; }
+  div .GridMain div .imgIndex {
+    margin: 10px; }
+  div .GridMain div .titleBox {
+    color: orange;
+    font-family: "Tangerine";
+    font-size: 1.5rem; }
+  div .GridMain div p {
+    color: #978f7e;
+    font-family: "Island+Moments";
+    font-size: 1rem; }
+
+div .GridMain .gridBox1, div .GridMain .gridBox3 {
+  background-color: #faf8eb;
+  margin: 0.5rem; }
+
+div .GridMain .gridBox2, div .GridMain .gridBox4 {
+  background-color: #f2f9ff;
+  margin: 0.5rem; }
+
+div .gridMainNos .gridMainNos2 .imgNosotros1, div .gridMainNos .gridMainNos2 .imgNosotros2, div .gridMainNos .gridMainNos2 .imgNosotros3 {
+  margin: 2rem; }
+
+div .gridMainNos .gridMainNos2 .Text1, div .gridMainNos .gridMainNos2 .Text2, div .gridMainNos .gridMainNos2 .Text3, div .gridMainNos .gridMainNos2 .Text4, div .gridMainNos .gridMainNos2 .Text5, div .gridMainEst .gridMainEst2 .esteticaText1, div .gridMainEst .gridMainEst2 .esteticaText2, div .gridMainEst .gridMainEst2 .esteticaText3 {
+  align-self: center; }
+
+div .gridMainHs .cronoHorarios, div .gridMainHs .cronoHorarios .cronoTable .table_header, .gridFooter {
+  align-items: center; }
+
+div .gridMainEst .gridMainEst2 .imgEstetica1, div .gridMainEst .gridMainEst2 .imgEstetica2, div .gridMainEst .gridMainEst2 .imgEstetica3 {
+  margin: 2rem; }
+
+div #nosotrosPage, div #horariosPage, div #clasesPage, div #esteticaPage, div #contactoPage {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+div .gridMainHs .cronoHorarios .cronoTable table thead tr, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaUno, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaDos, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaTres, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaCuatro, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaCinco, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaSeis, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaSiete {
+  display: grid;
+  grid-template-columns: repeat(4, 15rem);
+  background-color: #fc7b4d;
+  margin: 0.5rem 0rem; }
+  div .gridMainHs .cronoHorarios .cronoTable table thead tr:hover, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaUno:hover, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaDos:hover, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaTres:hover, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaCuatro:hover, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaCinco:hover, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaSeis:hover, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaSiete:hover {
+    background-color: #ff6229; }
+
+/* Estilos Nosotros */
+div .gridMainNos {
+  display: grid;
+  grid-template-areas: "Sepa Sepa" "GridNos GridNos"; }
+  div .gridMainNos .gridMainNos2 {
+    display: grid;
+    grid-area: GridNos;
+    justify-content: center;
+    grid-template-columns: 35rem;
+    grid-template-areas: "Title Title" "Text1 Img1" "Text2 Img1" "Text3 Img2" "Text4 Img2" "Text5 Img3"; }
+    div .gridMainNos .gridMainNos2 .tituloNosotros {
+      color: orange;
+      font-family: "Tangerine";
+      font-size: 3rem;
+      grid-area: Title; }
+    div .gridMainNos .gridMainNos2 .Text1 {
+      color: #978f7e;
+      font-family: "Island+Moments";
+      font-size: 1rem;
+      grid-area: Text1; }
+    div .gridMainNos .gridMainNos2 .Text2 {
+      color: #978f7e;
+      font-family: "Island+Moments";
+      font-size: 1rem;
+      grid-area: Text2; }
+    div .gridMainNos .gridMainNos2 .Text3 {
+      color: #978f7e;
+      font-family: "Island+Moments";
+      font-size: 1rem;
+      grid-area: Text3; }
+    div .gridMainNos .gridMainNos2 .Text4 {
+      color: #978f7e;
+      font-family: "Island+Moments";
+      font-size: 1rem;
+      grid-area: Text4; }
+    div .gridMainNos .gridMainNos2 .Text5 {
+      color: #978f7e;
+      font-family: "Island+Moments";
+      font-size: 1rem;
+      grid-area: Text5; }
+    div .gridMainNos .gridMainNos2 .imgNosotros1 {
+      grid-area: Img1; }
+    div .gridMainNos .gridMainNos2 .imgNosotros2 {
+      grid-area: Img2; }
+    div .gridMainNos .gridMainNos2 .imgNosotros3 {
+      grid-area: Img3; }
+
+/* Estilos Clases */
+div .gridMainClases {
+  display: grid;
+  grid-template-areas: "Sepa Sepa" "gridImgeClases gridImgeClases"; }
+  div .gridMainClases .gridImgClases {
+    display: grid;
+    grid-area: gridImgeClases;
+    justify-content: center;
+    grid-template-areas: "cImge1 cImge2 cImge3" "cImge4 cImge5 cImge6"; }
+  div .gridMainClases img {
+    margin: 20px; }
+  div .gridMainClases .cImg1 {
+    grid-area: cImge1; }
+  div .gridMainClases .cImg2 {
+    grid-area: cImge2; }
+  div .gridMainClases .cImg3 {
+    grid-area: cImge3; }
+  div .gridMainClases .cImg4 {
+    grid-area: cImge4; }
+  div .gridMainClases .cImg5 {
+    grid-area: cImge5; }
+  div .gridMainClases .cImg6 {
+    grid-area: cImge6; }
+
+div .GridMain .gridBox1, div .GridMain .gridBox3 {
+  background-color: #faf8eb;
+  margin: 0.5rem; }
+
+div .GridMain .gridBox2, div .GridMain .gridBox4 {
+  background-color: #f2f9ff;
+  margin: 0.5rem; }
+
+div .gridMainNos .gridMainNos2 .imgNosotros1, div .gridMainNos .gridMainNos2 .imgNosotros2, div .gridMainNos .gridMainNos2 .imgNosotros3 {
+  margin: 2rem; }
+
+div .gridMainNos .gridMainNos2 .Text1, div .gridMainNos .gridMainNos2 .Text2, div .gridMainNos .gridMainNos2 .Text3, div .gridMainNos .gridMainNos2 .Text4, div .gridMainNos .gridMainNos2 .Text5, div .gridMainEst .gridMainEst2 .esteticaText1, div .gridMainEst .gridMainEst2 .esteticaText2, div .gridMainEst .gridMainEst2 .esteticaText3 {
+  align-self: center; }
+
+div .gridMainHs .cronoHorarios, div .gridMainHs .cronoHorarios .cronoTable .table_header, .gridFooter {
+  align-items: center; }
+
+div .gridMainEst .gridMainEst2 .imgEstetica1, div .gridMainEst .gridMainEst2 .imgEstetica2, div .gridMainEst .gridMainEst2 .imgEstetica3 {
+  margin: 2rem; }
+
+div #nosotrosPage, div #horariosPage, div #clasesPage, div #esteticaPage, div #contactoPage {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+div .gridMainHs .cronoHorarios .cronoTable table thead tr, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaUno, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaDos, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaTres, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaCuatro, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaCinco, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaSeis, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaSiete {
+  display: grid;
+  grid-template-columns: repeat(4, 15rem);
+  background-color: #fc7b4d;
+  margin: 0.5rem 0rem; }
+  div .gridMainHs .cronoHorarios .cronoTable table thead tr:hover, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaUno:hover, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaDos:hover, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaTres:hover, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaCuatro:hover, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaCinco:hover, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaSeis:hover, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaSiete:hover {
+    background-color: #ff6229; }
+
+/* Estilos Horarios */
+div .gridMainHs .cronoHorarios {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: "Rubik Distressed";
+  font-size: 1rem; }
+  div .gridMainHs .cronoHorarios .cronoTable {
+    background-color: whitesmoke;
+    box-shadow: 0.2rem 0.2rem 0.1rem 0.1rem #ff8c8c;
+    padding: 1rem;
+    border-radius: 1rem; }
+    div .gridMainHs .cronoHorarios .cronoTable .table_header {
+      display: flex;
+      justify-content: space-around; }
+      div .gridMainHs .cronoHorarios .cronoTable .table_header .calendar {
+        outline: none;
+        border: none;
+        color: #fc7b4d;
+        font-family: "Rubik Distressed";
+        font-size: 3rem; }
+      div .gridMainHs .cronoHorarios .cronoTable .table_header button {
+        outline: none;
+        border: none;
+        background-color: #fc7b4d;
+        color: whitesmoke;
+        font-family: "Cinzel";
+        font-size: 1rem;
+        padding: 1rem;
+        border-radius: 1rem;
+        text-transform: uppercase;
+        box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem white;
+        margin: 0.5rem;
+        cursor: pointer; }
+        div .gridMainHs .cronoHorarios .cronoTable .table_header button:hover {
+          background-color: #ff6229; }
+    div .gridMainHs .cronoHorarios .cronoTable table thead {
+      color: whitesmoke;
+      font-family: "Cinzel";
+      font-size: 1.2rem; }
+      div .gridMainHs .cronoHorarios .cronoTable table thead tr {
+        padding: 1rem;
+        border-radius: 1rem;
+        grid-template-areas: "Clase Hor Profe Inten"; }
+        div .gridMainHs .cronoHorarios .cronoTable table thead tr .clase {
+          grid-area: Clase;
+          text-align: center; }
+        div .gridMainHs .cronoHorarios .cronoTable table thead tr .hor {
+          grid-area: Hor;
+          text-align: center; }
+        div .gridMainHs .cronoHorarios .cronoTable table thead tr .profe {
+          grid-area: Profe;
+          text-align: center; }
+        div .gridMainHs .cronoHorarios .cronoTable table thead tr .inten {
+          grid-area: Inten;
+          text-align: center; }
+    div .gridMainHs .cronoHorarios .cronoTable table tbody {
+      color: black;
+      font-family: "Rubik Distressed";
+      font-size: 1rem; }
+      div .gridMainHs .cronoHorarios .cronoTable table tbody .filaUno {
+        padding: 1rem;
+        border-radius: 1rem;
+        grid-template-areas: "f1Uno f1Dos f1Tres f1Cuatro"; }
+        div .gridMainHs .cronoHorarios .cronoTable table tbody .filaUno .f1Uno {
+          grid-area: f1Uno;
+          text-align: center; }
+        div .gridMainHs .cronoHorarios .cronoTable table tbody .filaUno .f1Dos {
+          grid-area: f1Dos;
+          text-align: center; }
+        div .gridMainHs .cronoHorarios .cronoTable table tbody .filaUno .f1Tres {
+          grid-area: f1Tres;
+          text-align: center; }
+        div .gridMainHs .cronoHorarios .cronoTable table tbody .filaUno .f1Cuatro {
+          grid-area: f1Cuatro;
+          text-align: center; }
+      div .gridMainHs .cronoHorarios .cronoTable table tbody .filaDos {
+        padding: 1rem;
+        border-radius: 1rem;
+        grid-template-areas: "f2Uno f2Dos f2Tres f2Cuatro"; }
+        div .gridMainHs .cronoHorarios .cronoTable table tbody .filaDos .f2Uno {
+          grid-area: f2Uno;
+          text-align: center; }
+        div .gridMainHs .cronoHorarios .cronoTable table tbody .filaDos .f2Dos {
+          grid-area: f2Dos;
+          text-align: center; }
+        div .gridMainHs .cronoHorarios .cronoTable table tbody .filaDos .f2Tres {
+          grid-area: f2Tres;
+          text-align: center; }
+        div .gridMainHs .cronoHorarios .cronoTable table tbody .filaDos .f2Cuatro {
+          grid-area: f2Cuatro;
+          text-align: center; }
+      div .gridMainHs .cronoHorarios .cronoTable table tbody .filaTres {
+        padding: 1rem;
+        border-radius: 1rem;
+        grid-template-areas: "f3Uno f3Dos f3Tres f3Cuatro"; }
+        div .gridMainHs .cronoHorarios .cronoTable table tbody .filaTres .f3Uno {
+          grid-area: f3Uno;
+          text-align: center; }
+        div .gridMainHs .cronoHorarios .cronoTable table tbody .filaTres .f3Dos {
+          grid-area: f3Dos;
+          text-align: center; }
+        div .gridMainHs .cronoHorarios .cronoTable table tbody .filaTres .f3Tres {
+          grid-area: f3Tres;
+          text-align: center; }
+        div .gridMainHs .cronoHorarios .cronoTable table tbody .filaTres .f3Cuatro {
+          grid-area: f3Cuatro;
+          text-align: center; }
+      div .gridMainHs .cronoHorarios .cronoTable table tbody .filaCuatro {
+        padding: 1rem;
+        border-radius: 1rem;
+        grid-template-areas: "f4Uno f4Dos f4Tres f4Cuatro"; }
+        div .gridMainHs .cronoHorarios .cronoTable table tbody .filaCuatro .f4Uno {
+          grid-area: f4Uno;
+          text-align: center; }
+        div .gridMainHs .cronoHorarios .cronoTable table tbody .filaCuatro .f4Dos {
+          grid-area: f4Dos;
+          text-align: center; }
+        div .gridMainHs .cronoHorarios .cronoTable table tbody .filaCuatro .f4Tres {
+          grid-area: f4Tres;
+          text-align: center; }
+        div .gridMainHs .cronoHorarios .cronoTable table tbody .filaCuatro .f4Cuatro {
+          grid-area: f4Cuatro;
+          text-align: center; }
+      div .gridMainHs .cronoHorarios .cronoTable table tbody .filaCinco {
+        padding: 1rem;
+        border-radius: 1rem;
+        grid-template-areas: "f5Uno f5Dos f5Tres f5Cuatro"; }
+        div .gridMainHs .cronoHorarios .cronoTable table tbody .filaCinco .f5Uno {
+          grid-area: f5Uno;
+          text-align: center; }
+        div .gridMainHs .cronoHorarios .cronoTable table tbody .filaCinco .f5Dos {
+          grid-area: f5Dos;
+          text-align: center; }
+        div .gridMainHs .cronoHorarios .cronoTable table tbody .filaCinco .f5Tres {
+          grid-area: f5Tres;
+          text-align: center; }
+        div .gridMainHs .cronoHorarios .cronoTable table tbody .filaCinco .f5Cuatro {
+          grid-area: f5Cuatro;
+          text-align: center; }
+      div .gridMainHs .cronoHorarios .cronoTable table tbody .filaSeis {
+        padding: 1rem;
+        border-radius: 1rem;
+        grid-template-areas: "f6Uno f6Dos f6Tres f6Cuatro"; }
+        div .gridMainHs .cronoHorarios .cronoTable table tbody .filaSeis .f6Uno {
+          grid-area: f6Uno;
+          text-align: center; }
+        div .gridMainHs .cronoHorarios .cronoTable table tbody .filaSeis .f6Dos {
+          grid-area: f6Dos;
+          text-align: center; }
+        div .gridMainHs .cronoHorarios .cronoTable table tbody .filaSeis .f6Tres {
+          grid-area: f6Tres;
+          text-align: center; }
+        div .gridMainHs .cronoHorarios .cronoTable table tbody .filaSeis .f6Cuatro {
+          grid-area: f6Cuatro;
+          text-align: center; }
+      div .gridMainHs .cronoHorarios .cronoTable table tbody .filaSiete {
+        padding: 1rem;
+        border-radius: 1rem;
+        grid-template-areas: "f7Uno f7Dos f7Tres f7Cuatro"; }
+        div .gridMainHs .cronoHorarios .cronoTable table tbody .filaSiete .f7Uno {
+          grid-area: f7Uno;
+          text-align: center; }
+        div .gridMainHs .cronoHorarios .cronoTable table tbody .filaSiete .f7Dos {
+          grid-area: f7Dos;
+          text-align: center; }
+        div .gridMainHs .cronoHorarios .cronoTable table tbody .filaSiete .f7Tres {
+          grid-area: f7Tres;
+          text-align: center; }
+        div .gridMainHs .cronoHorarios .cronoTable table tbody .filaSiete .f7Cuatro {
+          grid-area: f7Cuatro;
+          text-align: center; }
+
+div .GridMain .gridBox1, div .GridMain .gridBox3 {
+  background-color: #faf8eb;
+  margin: 0.5rem; }
+
+div .GridMain .gridBox2, div .GridMain .gridBox4 {
+  background-color: #f2f9ff;
+  margin: 0.5rem; }
+
+div .gridMainNos .gridMainNos2 .imgNosotros1, div .gridMainNos .gridMainNos2 .imgNosotros2, div .gridMainNos .gridMainNos2 .imgNosotros3 {
+  margin: 2rem; }
+
+div .gridMainNos .gridMainNos2 .Text1, div .gridMainNos .gridMainNos2 .Text2, div .gridMainNos .gridMainNos2 .Text3, div .gridMainNos .gridMainNos2 .Text4, div .gridMainNos .gridMainNos2 .Text5, div .gridMainEst .gridMainEst2 .esteticaText1, div .gridMainEst .gridMainEst2 .esteticaText2, div .gridMainEst .gridMainEst2 .esteticaText3 {
+  align-self: center; }
+
+div .gridMainHs .cronoHorarios, div .gridMainHs .cronoHorarios .cronoTable .table_header, .gridFooter {
+  align-items: center; }
+
+div .gridMainEst .gridMainEst2 .imgEstetica1, div .gridMainEst .gridMainEst2 .imgEstetica2, div .gridMainEst .gridMainEst2 .imgEstetica3 {
+  margin: 2rem; }
+
+div #nosotrosPage, div #horariosPage, div #clasesPage, div #esteticaPage, div #contactoPage {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+div .gridMainHs .cronoHorarios .cronoTable table thead tr, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaUno, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaDos, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaTres, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaCuatro, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaCinco, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaSeis, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaSiete {
+  display: grid;
+  grid-template-columns: repeat(4, 15rem);
+  background-color: #fc7b4d;
+  margin: 0.5rem 0rem; }
+  div .gridMainHs .cronoHorarios .cronoTable table thead tr:hover, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaUno:hover, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaDos:hover, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaTres:hover, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaCuatro:hover, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaCinco:hover, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaSeis:hover, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaSiete:hover {
+    background-color: #ff6229; }
+
+/* Estilos Estetica */
+div .gridMainEst {
+  display: grid;
+  grid-template-areas: "Sepa Sepa" "GridEst GridEst"; }
+  div .gridMainEst .gridMainEst2 {
+    display: grid;
+    grid-area: GridEst;
+    justify-content: center;
+    grid-template-columns: 50rem;
+    grid-template-rows: 2.9rem 2rem 10rem 2rem 10rem 2rem;
+    grid-template-areas: "TitleE TitleE" "TitleE1 TitleE1" "eText1 eImg1" "TitleE2 TitleE2" "eText2 eImg2" "TitleE3 TitleE3" "eText3 eImg3"; }
+    div .gridMainEst .gridMainEst2 .esteticaTitulo {
+      text-decoration: underline;
+      color: orange;
+      font-family: "Island+Moments";
+      font-size: 2rem;
+      grid-area: TitleE; }
+    div .gridMainEst .gridMainEst2 .tituloEstetica1 {
+      color: orange;
+      font-family: "Tangerine";
+      font-size: 3rem;
+      grid-area: TitleE1; }
+    div .gridMainEst .gridMainEst2 .tituloEstetica2 {
+      color: orange;
+      font-family: "Tangerine";
+      font-size: 3rem;
+      grid-area: TitleE2; }
+    div .gridMainEst .gridMainEst2 .tituloEstetica3 {
+      color: orange;
+      font-family: "Tangerine";
+      font-size: 3rem;
+      grid-area: TitleE3; }
+    div .gridMainEst .gridMainEst2 .imgEstetica1 {
+      grid-area: eImg1; }
+    div .gridMainEst .gridMainEst2 .imgEstetica2 {
+      grid-area: eImg2; }
+    div .gridMainEst .gridMainEst2 .imgEstetica3 {
+      grid-area: eImg3; }
+    div .gridMainEst .gridMainEst2 .esteticaText1 {
+      color: #978f7e;
+      font-family: "Island+Moments";
+      font-size: 1rem;
+      grid-area: eText1; }
+    div .gridMainEst .gridMainEst2 .esteticaText2 {
+      color: #978f7e;
+      font-family: "Island+Moments";
+      font-size: 1rem;
+      grid-area: eText2; }
+    div .gridMainEst .gridMainEst2 .esteticaText3 {
+      color: #978f7e;
+      font-family: "Island+Moments";
+      font-size: 1rem;
+      grid-area: eText3; }
+
+div .GridMain .gridBox1, div .GridMain .gridBox3 {
+  background-color: #faf8eb;
+  margin: 0.5rem; }
+
+div .GridMain .gridBox2, div .GridMain .gridBox4 {
+  background-color: #f2f9ff;
+  margin: 0.5rem; }
+
+div .gridMainNos .gridMainNos2 .imgNosotros1, div .gridMainNos .gridMainNos2 .imgNosotros2, div .gridMainNos .gridMainNos2 .imgNosotros3 {
+  margin: 2rem; }
+
+div .gridMainNos .gridMainNos2 .Text1, div .gridMainNos .gridMainNos2 .Text2, div .gridMainNos .gridMainNos2 .Text3, div .gridMainNos .gridMainNos2 .Text4, div .gridMainNos .gridMainNos2 .Text5, div .gridMainEst .gridMainEst2 .esteticaText1, div .gridMainEst .gridMainEst2 .esteticaText2, div .gridMainEst .gridMainEst2 .esteticaText3 {
+  align-self: center; }
+
+div .gridMainHs .cronoHorarios, div .gridMainHs .cronoHorarios .cronoTable .table_header, .gridFooter {
+  align-items: center; }
+
+div .gridMainEst .gridMainEst2 .imgEstetica1, div .gridMainEst .gridMainEst2 .imgEstetica2, div .gridMainEst .gridMainEst2 .imgEstetica3 {
+  margin: 2rem; }
+
+div #nosotrosPage, div #horariosPage, div #clasesPage, div #esteticaPage, div #contactoPage {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+div .gridMainHs .cronoHorarios .cronoTable table thead tr, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaUno, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaDos, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaTres, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaCuatro, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaCinco, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaSeis, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaSiete {
+  display: grid;
+  grid-template-columns: repeat(4, 15rem);
+  background-color: #fc7b4d;
+  margin: 0.5rem 0rem; }
+  div .gridMainHs .cronoHorarios .cronoTable table thead tr:hover, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaUno:hover, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaDos:hover, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaTres:hover, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaCuatro:hover, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaCinco:hover, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaSeis:hover, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaSiete:hover {
+    background-color: #ff6229; }
+
+/* Estilos Contactos */
+div .gridMainCon {
+  display: grid;
+  grid-template-areas: "Sepa Sepa" "GridCon GridCon"; }
+  div .gridMainCon .gridMainCon2 {
+    display: grid;
+    grid-area: GridCon;
+    justify-content: center;
+    grid-template-areas: "Contacto Contacto" "Form Maps" "Seg Seg" "Reds Reds"; }
+    div .gridMainCon .gridMainCon2 .googleMaps {
+      margin: 50px 50px;
+      grid-area: Maps; }
+    div .gridMainCon .gridMainCon2 .contacto {
+      color: orange;
+      font-family: "Tangerine";
+      font-size: 3rem;
+      grid-area: Contacto;
+      text-decoration: underline; }
+    div .gridMainCon .gridMainCon2 .formularioMaps {
+      display: flex; }
+      div .gridMainCon .gridMainCon2 .formularioMaps .formulario {
+        color: white;
+        font-family: "Rubik Distressed";
+        font-size: 1rem;
+        background-image: radial-gradient(#ffe3c4 0.5px, transparent 0.5px), radial-gradient(#ff9c79 0.5px, #ff6229 0.5px);
+        background-size: 20px 20px;
+        background-position: 0 0,10px 10px;
+        margin: auto;
+        width: 90%;
+        max-width: 400px;
+        padding: 2rem 4rem;
+        border-radius: 1rem;
+        box-shadow: 0 5px 10px -5px #050500;
+        text-align: center; }
+        div .gridMainCon .gridMainCon2 .formularioMaps .formulario .formularioTitle {
+          font-size: 2rem;
+          margin-bottom: 0.5rem; }
+        div .gridMainCon .gridMainCon2 .formularioMaps .formulario .formularioP {
+          font-weight: 300; }
+          div .gridMainCon .gridMainCon2 .formularioMaps .formulario .formularioP .formularioLink {
+            font-weight: 400;
+            color: #bdbdbd; }
+        div .gridMainCon .gridMainCon2 .formularioMaps .formulario .formularioContainer {
+          margin-top: 0.5rem;
+          display: grid;
+          gap: 0.5rem; }
+          div .gridMainCon .gridMainCon2 .formularioMaps .formulario .formularioContainer .grupo {
+            position: relative;
+            color: white;
+            font-family: "Rubik Distressed";
+            font-size: 1rem; }
+            div .gridMainCon .gridMainCon2 .formularioMaps .formulario .formularioContainer .grupo .formularioImput {
+              width: 100%;
+              background: none;
+              color: white;
+              font-family: "Rubik Distressed";
+              font-size: 1rem;
+              padding: 0.5rem 0.2rem;
+              outline: none;
+              border: none;
+              border-bottom: 1px solid #f065157e; }
+            div .gridMainCon .gridMainCon2 .formularioMaps .formulario .formularioContainer .grupo .formularioLabel {
+              color: white;
+              font-family: "Rubik Distressed";
+              font-size: 1rem;
+              cursor: pointer;
+              position: absolute;
+              top: 0;
+              left: 5px;
+              transform: translateY(10px);
+              transition: transform .5s, color 3s; }
+            div .gridMainCon .gridMainCon2 .formularioMaps .formulario .formularioContainer .grupo .formularioImput:focus + .formularioLabel,
+            div .gridMainCon .gridMainCon2 .formularioMaps .formulario .formularioContainer .grupo .formularioImput:not(:placeholder-shown) + .formularioLabel {
+              transform: translateY(-12px) scale(0.7);
+              transform-origin: left top;
+              color: #ffb866; }
+          div .gridMainCon .gridMainCon2 .formularioMaps .formulario .formularioContainer .formularioEnviar {
+            background-color: #2419197e;
+            color: whitesmoke;
+            font-weight: 300;
+            font-size: 1rem;
+            padding: 0.5rem 0rem;
+            border: none;
+            border-radius: 1rem; }
+    div .gridMainCon .gridMainCon2 .buscanos {
+      color: orange;
+      font-family: "Tangerine";
+      font-size: 3rem;
+      grid-area: Seg;
+      margin: 2rem 0rem;
+      text-decoration: underline; }
+    div .gridMainCon .gridMainCon2 .redesSociales {
+      grid-area: Reds;
+      display: flex;
+      justify-content: space-around; }
+
+div .GridMain .gridBox1, div .GridMain .gridBox3 {
+  background-color: #faf8eb;
+  margin: 0.5rem; }
+
+div .GridMain .gridBox2, div .GridMain .gridBox4 {
+  background-color: #f2f9ff;
+  margin: 0.5rem; }
+
+div .gridMainNos .gridMainNos2 .imgNosotros1, div .gridMainNos .gridMainNos2 .imgNosotros2, div .gridMainNos .gridMainNos2 .imgNosotros3 {
+  margin: 2rem; }
+
+div .gridMainNos .gridMainNos2 .Text1, div .gridMainNos .gridMainNos2 .Text2, div .gridMainNos .gridMainNos2 .Text3, div .gridMainNos .gridMainNos2 .Text4, div .gridMainNos .gridMainNos2 .Text5, div .gridMainEst .gridMainEst2 .esteticaText1, div .gridMainEst .gridMainEst2 .esteticaText2, div .gridMainEst .gridMainEst2 .esteticaText3 {
+  align-self: center; }
+
+div .gridMainHs .cronoHorarios, div .gridMainHs .cronoHorarios .cronoTable .table_header, .gridFooter {
+  align-items: center; }
+
+div .gridMainEst .gridMainEst2 .imgEstetica1, div .gridMainEst .gridMainEst2 .imgEstetica2, div .gridMainEst .gridMainEst2 .imgEstetica3 {
+  margin: 2rem; }
+
+div #nosotrosPage, div #horariosPage, div #clasesPage, div #esteticaPage, div #contactoPage {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+div .gridMainHs .cronoHorarios .cronoTable table thead tr, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaUno, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaDos, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaTres, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaCuatro, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaCinco, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaSeis, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaSiete {
+  display: grid;
+  grid-template-columns: repeat(4, 15rem);
+  background-color: #fc7b4d;
+  margin: 0.5rem 0rem; }
+  div .gridMainHs .cronoHorarios .cronoTable table thead tr:hover, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaUno:hover, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaDos:hover, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaTres:hover, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaCuatro:hover, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaCinco:hover, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaSeis:hover, div .gridMainHs .cronoHorarios .cronoTable table tbody .filaSiete:hover {
+    background-color: #ff6229; }
+
+/* Colocamos una imagen de fondo y la centramos */
+div #nosotrosPage {
+  background-image: url(../img/Nosotros.jpg); }
+
+div #horariosPage {
+  background-image: url(../img/Horarios.png); }
+
+div #clasesPage {
+  background-image: url(../img/clases.jpg); }
+
+div #esteticaPage {
+  background-image: url(../img/estetica.png); }
+
+div #contactoPage {
+  background-image: url(../img/contacto.jpg); }
+
+/* Vista mobile */
+@media only screen and (min-width: 0px) and (max-width: 412px) {
+  div header nav .styleBoton {
+    border-radius: 6px;
+    background-color: whitesmoke;
+    opacity: 70%;
+    z-index: 3; }
+  div header div a .searchIcon {
+    display: none; }
+  div .GridMain {
+    display: grid;
+    grid-template-areas: "Sepa Sepa Sepa Sepa" "Video Video Video Video" "Box1 Box1 Box1 Box1" "Box2 Box2 Box2 Box2" "Box3 Box3 Box3 Box3" "Box4 Box4 Box4 Box4"; }
+    div .GridMain .videoYoutube iframe {
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 60%; }
+  div .gridMainNos .gridMainNos2 {
+    display: grid;
+    grid-area: GridNos;
+    justify-items: center;
+    grid-template-columns: 20rem;
+    grid-template-areas: "Title" "Text1" "Text2" "Img1" "Text3" "Text4" "Img2" "Text5" "Img3"; }
+  div .gridMainClases .gridImgClases {
+    display: grid;
+    grid-area: gridImgeClases;
+    grid-template-areas: "cImge1" "cImge2" "cImge3" "cImge4" "cImge5" "cImge6"; }
+  div .gridMainEst .gridMainEst2 {
+    display: grid;
+    grid-area: GridEst;
+    justify-items: center;
+    grid-template-columns: 20rem;
+    grid-template-rows: 3rem;
+    grid-template-areas: "TitleE" "TitleE1" "eText1" "eImg1" "TitleE2" "eText2" "eImg2" "TitleE3" "eText3" "eImg3"; }
+    div .gridMainEst .gridMainEst2 .esteticaTitulo {
+      font-size: 1rem;
+      text-decoration: underline; }
+    div .gridMainEst .gridMainEst2 .tituloEstetica1 {
+      font-size: 2rem; }
+    div .gridMainEst .gridMainEst2 .tituloEstetica2 {
+      font-size: 2rem; }
+    div .gridMainEst .gridMainEst2 .tituloEstetica3 {
+      font-size: 2rem; }
+  div .gridMainCon .gridMainCon2 {
+    display: grid;
+    grid-area: GridCon;
+    justify-content: center;
+    margin: 0.5rem;
+    grid-template-areas: "Contacto" "Form" "Maps" "Seg" "Reds"; }
+    div .gridMainCon .gridMainCon2 .contacto {
+      font-size: 2rem; }
+    div .gridMainCon .gridMainCon2 .formularioMaps {
+      display: flex;
+      justify-content: center; }
+    div .gridMainCon .gridMainCon2 .googleMaps iframe {
+      width: 100%;
+      height: 100%; }
+    div .gridMainCon .gridMainCon2 .buscanos {
+      font-size: 2rem; }
+    div .gridMainCon .gridMainCon2 .redesSociales {
+      display: flex; }
+  div .gridMainHs .cronoHorarios .cronoTable .table_header {
+    display: grid;
+    grid-template-areas: "calendar" "B1" "B2" "B3" "B4" "B5" "B6"; }
+    div .gridMainHs .cronoHorarios .cronoTable .table_header .calendar {
+      grid-area: calendar; }
+    div .gridMainHs .cronoHorarios .cronoTable .table_header .B1 {
+      grid-area: B1; }
+    div .gridMainHs .cronoHorarios .cronoTable .table_header .B2 {
+      grid-area: B2; }
+    div .gridMainHs .cronoHorarios .cronoTable .table_header .B3 {
+      grid-area: B3; }
+    div .gridMainHs .cronoHorarios .cronoTable .table_header .B4 {
+      grid-area: B4; }
+    div .gridMainHs .cronoHorarios .cronoTable .table_header .B5 {
+      grid-area: B5; }
+    div .gridMainHs .cronoHorarios .cronoTable .table_header .B6 {
+      grid-area: B6; }
+  div .gridMainHs .cronoHorarios .cronoTable table thead tr {
+    display: none; }
+  div .gridMainHs .cronoHorarios .cronoTable table tbody .filaUno {
+    grid-template-areas: "f1Uno" "f1Dos" "f1Tres" "f1Cuatro";
+    grid-template-columns: 15rem; }
+  div .gridMainHs .cronoHorarios .cronoTable table tbody .filaDos {
+    grid-template-areas: "f2Uno" "f2Dos" "f2Tres" "f2Cuatro";
+    grid-template-columns: 15rem; }
+  div .gridMainHs .cronoHorarios .cronoTable table tbody .filaTres {
+    grid-template-areas: "f3Uno" "f3Dos" "f3Tres" "f3Cuatro";
+    grid-template-columns: 15rem; }
+  div .gridMainHs .cronoHorarios .cronoTable table tbody .filaCuatro {
+    grid-template-areas: "f4Uno" "f4Dos" "f4Tres" "f4Cuatro";
+    grid-template-columns: 15rem; }
+  div .gridMainHs .cronoHorarios .cronoTable table tbody .filaCinco {
+    grid-template-areas: "f5Uno" "f5Dos" "f5Tres" "f5Cuatro";
+    grid-template-columns: 15rem; }
+  div .gridMainHs .cronoHorarios .cronoTable table tbody .filaSeis {
+    grid-template-areas: "f6Uno" "f6Dos" "f6Tres" "f6Cuatro";
+    grid-template-columns: 15rem; }
+  div .gridMainHs .cronoHorarios .cronoTable table tbody .filaSiete {
+    grid-template-areas: "f7Uno" "f7Dos" "f7Tres" "f7Cuatro";
+    grid-template-columns: 15rem; } }
+
+/* Vista Tablet */
+@media only screen and (min-width: 413px) and (max-width: 912px) {
+  div header nav .styleBoton {
+    border-radius: 6px;
+    background-color: whitesmoke;
+    opacity: 70%;
+    z-index: 3; }
+  div .GridMain {
+    display: grid;
+    grid-template-areas: "Sepa Sepa Sepa Sepa" "Video Video Video Video" "Box1 Box1 Box2 Box2" "Box1 Box1 Box2 Box2" "Box3 Box3 Box4 Box4" "Box3 Box3 Box4 Box4"; }
+    div .GridMain .videoYoutube iframe {
+      left: 0;
+      top: 0; }
+  div .gridMainNos .gridMainNos2 {
+    display: grid;
+    grid-area: GridNos;
+    justify-items: center;
+    grid-template-columns: 20rem;
+    grid-template-columns: 10rem;
+    padding: 1rem;
+    grid-template-areas: "Title Title" "Text1 Text1" "Text2 Img1" "Text3 Text3" "Text4 Img2" "Text5 Text5" "Img3 Img3"; }
+  div .gridMainClases .gridImgClases {
+    display: grid;
+    grid-area: gridImgeClases;
+    grid-template-areas: "cImge1 cImge2" "cImge3 cImge4" "cImge5 cImge6"; }
+  div .gridMainEst .gridMainEst2 {
+    display: grid;
+    grid-area: GridEst;
+    justify-items: center;
+    grid-template-columns: 20rem;
+    grid-template-rows: 3rem;
+    grid-template-columns: 15rem;
+    padding: 0.5rem;
+    grid-template-areas: "TitleE TitleE" "TitleE1 TitleE1" "eText1 eImg1" "TitleE2 TitleE2" "eText2 eImg2" "TitleE3 TitleE3" "eText3 eImg3"; }
+    div .gridMainEst .gridMainEst2 .esteticaTitulo {
+      font-size: 2rem;
+      text-decoration: underline; }
+    div .gridMainEst .gridMainEst2 .tituloEstetica1 {
+      font-size: 2rem; }
+    div .gridMainEst .gridMainEst2 .tituloEstetica2 {
+      font-size: 2rem; }
+    div .gridMainEst .gridMainEst2 .tituloEstetica3 {
+      font-size: 2rem; }
+  div .gridMainCon .gridMainCon2 {
+    display: grid;
+    grid-area: GridCon;
+    justify-content: center;
+    margin: 0.5rem;
+    grid-template-areas: "Contacto" "Form" "Maps" "Seg" "Reds"; }
+    div .gridMainCon .gridMainCon2 .contacto {
+      font-size: 2rem; }
+    div .gridMainCon .gridMainCon2 .formularioMaps {
+      display: flex;
+      justify-content: center; }
+    div .gridMainCon .gridMainCon2 .googleMaps iframe {
+      width: 100%;
+      height: 100%; }
+    div .gridMainCon .gridMainCon2 .buscanos {
+      font-size: 2rem; }
+    div .gridMainCon .gridMainCon2 .redesSociales {
+      display: flex; }
+  div .gridMainHs .cronoHorarios .cronoTable .table_header {
+    display: grid;
+    grid-template-areas: "calendar calendar" "B1 B2" "B3 B4" "B5 B6"; }
+    div .gridMainHs .cronoHorarios .cronoTable .table_header .calendar {
+      grid-area: calendar; }
+    div .gridMainHs .cronoHorarios .cronoTable .table_header .B1 {
+      grid-area: B1; }
+    div .gridMainHs .cronoHorarios .cronoTable .table_header .B2 {
+      grid-area: B2; }
+    div .gridMainHs .cronoHorarios .cronoTable .table_header .B3 {
+      grid-area: B3; }
+    div .gridMainHs .cronoHorarios .cronoTable .table_header .B4 {
+      grid-area: B4; }
+    div .gridMainHs .cronoHorarios .cronoTable .table_header .B5 {
+      grid-area: B5; }
+    div .gridMainHs .cronoHorarios .cronoTable .table_header .B6 {
+      grid-area: B6; }
+  div .gridMainHs .cronoHorarios .cronoTable table thead tr {
+    display: none; }
+  div .gridMainHs .cronoHorarios .cronoTable table tbody .filaUno {
+    grid-template-areas: "f1Uno" "f1Dos" "f1Tres" "f1Cuatro";
+    grid-template-columns: 25rem; }
+  div .gridMainHs .cronoHorarios .cronoTable table tbody .filaDos {
+    grid-template-areas: "f2Uno" "f2Dos" "f2Tres" "f2Cuatro";
+    grid-template-columns: 25rem; }
+  div .gridMainHs .cronoHorarios .cronoTable table tbody .filaTres {
+    grid-template-areas: "f3Uno" "f3Dos" "f3Tres" "f3Cuatro";
+    grid-template-columns: 25rem; }
+  div .gridMainHs .cronoHorarios .cronoTable table tbody .filaCuatro {
+    grid-template-areas: "f4Uno" "f4Dos" "f4Tres" "f4Cuatro";
+    grid-template-columns: 25rem; }
+  div .gridMainHs .cronoHorarios .cronoTable table tbody .filaCinco {
+    grid-template-areas: "f5Uno" "f5Dos" "f5Tres" "f5Cuatro";
+    grid-template-columns: 25rem; }
+  div .gridMainHs .cronoHorarios .cronoTable table tbody .filaSeis {
+    grid-template-areas: "f6Uno" "f6Dos" "f6Tres" "f6Cuatro";
+    grid-template-columns: 25rem; }
+  div .gridMainHs .cronoHorarios .cronoTable table tbody .filaSiete {
+    grid-template-areas: "f7Uno" "f7Dos" "f7Tres" "f7Cuatro";
+    grid-template-columns: 25rem; } }
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* Estilos Globales */
+header div .logoIcon {
+  margin: 50px;
+  transition: 3s; }
+
+header div .logoIcon:hover {
+  transform: scale(1.1);
+  transition: 3s; }
+
+header div a .searchIcon {
+  margin: 50px;
+  transition: 3s; }
+
+header div a .searchIcon:hover {
+  transform: scale(1.2);
+  transition: 3s; }
+
+header nav ul {
+  gap: 15px; }
+  header nav ul li {
+    padding: 10px;
+    z-index: 10; }
+    header nav ul li .textMenu {
+      color: orange;
+      font-family: "Island+Moments";
+      text-shadow: 2px 2px 10px #fdd58b;
+      transition: 1s; }
+    header nav ul li .textMenu:hover {
+      color: orangered;
+      text-shadow: 2px 2px 10px #fdd58b;
+      transition: 1s; }
+
+div main .separador {
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  grid-area: Sepa;
+  filter: drop-shadow(2px 2px 4px); }
+  div main .separador .hyperGymseparador {
+    opacity: 80%;
+    position: relative;
+    top: -5rem;
+    animation-name: hyperGymAnimation;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-direction: alternate-reverse; }
+
+@keyframes hyperGymAnimation {
+  to {
+    transform: scale(1); }
+  from {
+    transform: scale(1.1); } }
+
+div main .float {
+  position: fixed;
+  z-index: 2;
+  right: 0;
+  top: 50%; }
+  div main .float .whatsapp {
+    transition: 10s; }
+  div main .float .whatsapp:hover {
+    transition: 10s;
+    transform: rotate(360deg); }
+
+.gridFooter {
+  display: flex;
+  justify-content: center;
+  height: 7rem; }
+  .gridFooter img {
+    padding: 0.5rem; }
+  .gridFooter h1 {
+    color: black;
+    font-family: "Righteous";
+    font-size: 1rem;
+    text-align: center; }

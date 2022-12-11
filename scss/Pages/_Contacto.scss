@@ -1,0 +1,113 @@
+//Importar estilos
+@import "../Utilidades/Mixin.scss";
+@import "../Utilidades/Variables.scss";
+@import "../Utilidades/Extend.scss";
+//Fin importar
+
+/* Estilos Contactos */
+div{
+    .gridMainCon{
+        @include grid;
+        grid-template-areas: 
+        "Sepa Sepa"
+        "GridCon GridCon"
+        ;
+        .gridMainCon2{
+            @include gridCeDi(GridCon);
+            grid-template-areas: 
+            "Contacto Contacto"
+            "Form Maps"
+            "Seg Seg"
+            "Reds Reds"
+            ;
+            //le damos margen
+            .googleMaps{
+            margin: 50px 50px;
+            grid-area: Maps;
+            }
+            //Damos margen, color, tamaño y subrayado al titulo
+            .contacto{
+                @include fuCoSiAr(orange,'Tangerine',3rem,Contacto);
+                text-decoration: underline;
+            }
+            .formularioMaps{
+                display: flex;
+                .formulario{
+                    @include fuCoSi(white,'Rubik Distressed',1rem);
+                    background-image:  radial-gradient(#ffe3c4 0.5px, transparent 0.5px), radial-gradient(rgb(255, 156, 121) 0.5px, rgb(255, 98, 41) 0.5px);
+                    background-size: 20px 20px;
+                    background-position: 0 0,10px 10px;
+                    margin: auto;
+                    width: 90%;
+                    max-width: 400px;
+                    padding: 2rem 4rem;
+                    border-radius: 1rem;
+                    box-shadow: 0 5px 10px -5px rgb(5, 5, 5 / 30%);
+                    text-align: center;
+                        .formularioTitle{
+                        font-size: 2rem;
+                        margin-bottom: 0.5rem
+                        }
+                        .formularioP{
+                            font-weight: 300;
+                            .formularioLink{
+                                font-weight: 400;
+                                color: rgb(189, 189, 189);
+                            }
+                        }
+                        .formularioContainer{
+                           margin-top: 0.5rem;
+                           @include grid;
+                           gap: 0.5rem;
+                           .grupo{
+                            position: relative;
+                            @include fuCoSi(white,'Rubik Distressed',1rem);
+                            .formularioImput{
+                                width: 100%;
+                                background: none;
+                                @include fuCoSi(white,'Rubik Distressed',1rem);
+                                padding: 0.5rem 0.2rem;
+                                @include styleHorarios;
+                                border-bottom: 1px solid #f065157e;
+                            }
+                            .formularioLabel{
+                                @include fuCoSi(white,'Rubik Distressed',1rem);
+                                cursor: pointer;
+                                position: absolute;
+                                top: 0;
+                                left: 5px;
+                                transform: translateY(10px);
+                                transition: transform .5s, color 3s; 
+                            }
+                            .formularioImput:focus + .formularioLabel,
+                            .formularioImput:not(:placeholder-shown) + .formularioLabel{
+                                transform: translateY(-12px) scale(.7);
+                                transform-origin: left top;
+                                color: #ffb866;
+                            }
+                           }
+                           .formularioEnviar{
+                            background-color: #2419197e;
+                            color: whitesmoke;
+                            font-weight: 300;
+                            font-size: 1rem;
+                            padding: 0.5rem 0rem;
+                            border: none;
+                            border-radius: 1rem;
+                           }
+                        }
+                }
+             }
+            //Damos margen, color, tamaño y subrayado al titulo
+            .buscanos{
+                @include fuCoSiAr(orange,'Tangerine',3rem,Seg);
+                margin: 2rem 0rem;
+                text-decoration: underline;
+            }
+            .redesSociales{
+                grid-area: Reds;
+                @include flexSa;
+            }
+        }
+    }
+}

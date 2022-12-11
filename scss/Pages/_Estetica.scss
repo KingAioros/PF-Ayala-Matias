@@ -1,0 +1,78 @@
+//Importar estilos
+@import "../Utilidades/Mixin.scss";
+@import "../Utilidades/Variables.scss";
+@import "../Utilidades/Extend.scss";
+//Fin Importar
+
+/* Estilos Estetica */
+
+div{
+    //Aplicamos grid a esteticaPage
+    .gridMainEst{
+        @include grid;
+        grid-template-areas: 
+        "Sepa Sepa"
+        "GridEst GridEst"
+        ;
+        .gridMainEst2{
+            @include gridCeDi(GridEst);
+            grid-template-columns: 50rem;
+            grid-template-rows: 2.9rem 2rem 10rem 2rem 10rem 2rem;
+            grid-template-areas: 
+            "TitleE TitleE"
+            "TitleE1 TitleE1"
+            "eText1 eImg1"
+            "TitleE2 TitleE2"
+            "eText2 eImg2"
+            "TitleE3 TitleE3"
+            "eText3 eImg3"
+            ;
+            .esteticaTitulo{
+                text-decoration: underline;
+                @include fuCoSiAr (orange,'Island+Moments',2rem,TitleE);
+            }
+            
+            .tituloEstetica1{
+                @include fuCoSiAr (orange,'Tangerine',3rem,TitleE1);
+            }
+            
+            .tituloEstetica2{
+                @include fuCoSiAr (orange,'Tangerine',3rem,TitleE2);
+            }
+            
+            .tituloEstetica3{
+                @include fuCoSiAr (orange,'Tangerine',3rem,TitleE3);
+            }
+            
+            .imgEstetica1{
+                grid-area: eImg1;
+                @extend %imgEstStyle;
+            }
+            
+            .imgEstetica2{
+                grid-area: eImg2;
+                @extend %imgEstStyle;
+            }
+            
+            .imgEstetica3{
+                grid-area: eImg3;
+                @extend %imgEstStyle;
+            }
+            
+            .esteticaText1{
+                @extend %AlignCenter;
+                @include fuCoSiAr (rgb(151, 143, 126),'Island+Moments',1rem,eText1);
+            }
+            
+            .esteticaText2{
+                @extend %AlignCenter;
+                @include fuCoSiAr (rgb(151, 143, 126),'Island+Moments',1rem,eText2);
+            }
+            
+            .esteticaText3{
+                @extend %AlignCenter;
+                @include fuCoSiAr (rgb(151, 143, 126),'Island+Moments',1rem,eText3);
+            }
+        }
+    }
+}

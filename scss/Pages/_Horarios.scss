@@ -1,0 +1,218 @@
+//Importar
+@import "../Utilidades/Mixin.scss";
+@import "../Utilidades/Variables.scss";
+@import "../Utilidades/Extend.scss";
+//Fin importar
+/* Estilos Horarios */
+
+div{
+    .gridMainHs{
+        //Centramos el cronograma
+        .cronoHorarios{
+            @include flexCe;
+            @extend %AlignItemCenter;
+            @include fuCoSi(white,'Rubik Distressed',1rem);
+            //Color Box, sombra y borde
+            .cronoTable{
+                @include white;
+                box-shadow: 0.2rem 0.2rem 0.1rem 0.1rem rgb(255, 140, 140);
+                @include paBo;
+                //Display flex y space around a encabezado
+                .table_header{
+                    @include flexSa;
+                    @extend %AlignItemCenter;
+                    //Aplicamos fuente,color y tamaño a H1
+                    .calendar{
+                        @include styleHorarios;
+                        @include fuCoSi($bg-calendar,'Rubik Distressed',3rem);
+                    }
+                    //Estilos de button y cambios en el cursor
+                    button{
+                        @include styleHorarios;
+                        background-color: $bg-calendar;
+                        @include fuCoSi(whitesmoke,'Cinzel',1rem);
+                        @include paBo;
+                        text-transform: uppercase;
+                        box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem white;
+                        margin: $mg-Box;
+                        cursor: pointer;
+
+                        &:hover{
+                            background-color: rgb(255, 98, 41);
+                        }
+                    }
+                }
+                table{
+                    //Estilos de Thead
+                    thead{
+                        @include fuCoSi(whitesmoke,'Cinzel',1.2rem);
+                        //Estilos de tr
+                        tr{
+                            @extend %styleClock;
+                            @include paBo;
+                            grid-template-areas: 
+                            "Clase Hor Profe Inten";
+                            //Aplicamos grid-area
+                            .clase{
+                                @include gridTe(Clase);
+                            }
+                            .hor{
+                                @include gridTe(Hor);
+                            }
+                            .profe{
+                                @include gridTe(Profe);
+                            }
+                            .inten{
+                                @include gridTe(Inten);
+                            }
+                        }
+                    }
+                    //Estilos tbody
+                    tbody{
+                        @include fuCoSi(black,'Rubik Distressed',1rem);
+                        //Aplicamos estilos a Fila 1
+                        .filaUno{
+                            @extend %styleClock;
+                            @include paBo;
+                            grid-template-areas: 
+                            "f1Uno f1Dos f1Tres f1Cuatro";
+                            //Aplicamos grid-area y centramos
+                            .f1Uno{
+                                @include gridTe(f1Uno);
+                            }
+                            .f1Dos{
+                                @include gridTe(f1Dos);
+                            }
+                            .f1Tres{
+                                @include gridTe(f1Tres);
+                            }
+                            .f1Cuatro{
+                                @include gridTe(f1Cuatro);
+                            }
+                        }
+                        //Aplicamos estilos a Fila 2
+                        .filaDos{
+                            @extend %styleClock;
+                            @include paBo;
+                            grid-template-areas: 
+                            "f2Uno f2Dos f2Tres f2Cuatro";
+                            //Aplicamos grid-area y centramos
+                            .f2Uno{
+                                @include gridTe(f2Uno);
+                            }
+                            .f2Dos{
+                                @include gridTe(f2Dos);
+                            }
+                            .f2Tres{
+                                @include gridTe(f2Tres);
+                            }
+                            .f2Cuatro{
+                                @include gridTe(f2Cuatro);
+                            }
+                        }
+                        //Aplicamos estilos a Fila 3
+                        .filaTres{
+                            @extend %styleClock;
+                            @include paBo;
+                            grid-template-areas: 
+                            "f3Uno f3Dos f3Tres f3Cuatro";
+                            //Aplicamos grid-area y centramos
+                            .f3Uno{
+                                @include gridTe(f3Uno);
+                            }
+                            .f3Dos{
+                                @include gridTe(f3Dos);
+                            }
+                            .f3Tres{
+                                @include gridTe(f3Tres);
+                            }
+                            .f3Cuatro{
+                                @include gridTe(f3Cuatro);
+                            }
+                        }
+                        //Aplicamos estilos a Fila 4
+                        .filaCuatro{
+                            @extend %styleClock;
+                            @include paBo;
+                            grid-template-areas: 
+                            "f4Uno f4Dos f4Tres f4Cuatro";
+                            //Aplicamos grid-area y centramos
+                            .f4Uno{
+                                @include gridTe(f4Uno);
+                            }
+                            .f4Dos{
+                                @include gridTe(f4Dos);
+                            }
+                            .f4Tres{
+                                @include gridTe(f4Tres);
+                            }
+                            .f4Cuatro{
+                                @include gridTe(f4Cuatro);
+                            }
+                        }
+                        //Aplicamos estilos a Fila 5
+                        .filaCinco{
+                            @extend %styleClock;
+                            @include paBo;
+                            grid-template-areas: 
+                            "f5Uno f5Dos f5Tres f5Cuatro";
+                            //Aplicamos grid-area y centramos
+                            .f5Uno{
+                                @include gridTe(f5Uno);
+                            }
+                            .f5Dos{
+                                @include gridTe(f5Dos);
+                            }
+                            .f5Tres{
+                                @include gridTe(f5Tres);
+                            }
+                            .f5Cuatro{
+                                @include gridTe(f5Cuatro);
+                            }
+                        }
+                        //Aplicamos estilos a Fila 6
+                        .filaSeis{
+                            @extend %styleClock;
+                            @include paBo;
+                            grid-template-areas: 
+                            "f6Uno f6Dos f6Tres f6Cuatro";
+                            //Aplicamos grid-area y centramos
+                            .f6Uno{
+                                @include gridTe(f6Uno);
+                            }
+                            .f6Dos{
+                                @include gridTe(f6Dos);
+                            }
+                            .f6Tres{
+                                @include gridTe(f6Tres);
+                            }
+                            .f6Cuatro{
+                                @include gridTe(f6Cuatro);
+                            }
+                        }
+                        //Aplicamos estilos a Fila 7
+                        .filaSiete{
+                            @extend %styleClock;
+                            @include paBo;
+                            grid-template-areas: 
+                            "f7Uno f7Dos f7Tres f7Cuatro";
+                            //Aplicamos grid-area y centramos
+                            .f7Uno{
+                                @include gridTe(f7Uno);
+                            }
+                            .f7Dos{
+                                @include gridTe(f7Dos);
+                            }
+                            .f7Tres{
+                                @include gridTe(f7Tres);
+                            }
+                            .f7Cuatro{
+                                @include gridTe(f7Cuatro);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

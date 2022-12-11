@@ -1,0 +1,128 @@
+// Importamos
+@import "Pages/Index.scss";
+@import "Pages/Nosotros.scss";
+@import "Pages/Clases.scss";
+@import "Pages/Horarios.scss";
+@import "Pages/Estetica.scss";
+@import "Pages/Contacto.scss";
+@import "Utilidades/Image.scss";
+@import "Utilidades/Media.scss";
+@import "Utilidades/Mixin.scss";
+@import "Utilidades/Variables.scss";
+//Fin importar
+
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos Globales */
+
+header{
+    div{
+        //Tamaño Icono
+        .logoIcon{
+            @include maTra;
+        }
+        //Animacion
+        .logoIcon:hover{
+            transform: scale(1.1);
+            transition: 3s;
+        }
+        a{
+            //Estilo icono de busqueda
+            .searchIcon{
+                @include maTra;
+                }
+                //Aplicamos Animacion
+                .searchIcon:hover{
+                    transform: scale(1.2);
+                    transition: 3s;
+                }
+        }
+        }
+    nav{
+        //Distancia del menu
+        ul{
+            gap: 15px;
+            //Distancia y prioridad sobre otros elementos
+            li{
+                padding: 10px;
+                z-index: 10;
+                //Damos color al menu, elegimos fuente y sobras
+                .textMenu{
+                    @include fuCo(orange,'Island+Moments');
+                    @include textMenu;
+                }
+                //Animacion
+                .textMenu:hover{
+                    color: orangered;
+                    @include textMenu;
+                }
+            }
+        }
+    }
+}
+
+div{
+    main{
+        //Agregamos separador
+        .separador{
+            z-index: 2;
+            @include flexCe;
+            grid-area: Sepa;
+            filter: drop-shadow(2px 2px 4px);
+            .hyperGymseparador{
+                opacity: 80%;
+                position: relative;
+                top: -5rem;
+                animation-name: hyperGymAnimation;
+                animation-iteration-count: infinite;
+                animation-duration: 3s;
+                animation-direction: alternate-reverse;
+            }
+            @keyframes hyperGymAnimation {
+                to{
+                    transform: scale(1);
+                }
+                
+                from{
+                    transform: scale(1.1);
+                }
+            }
+        }
+        //Aplicamos fixed para que el elemento "flote", prioridad mayor con z-index, alineamos a la derecha y centramos
+        .float{
+            position: fixed;
+            z-index: 2;
+            right: 0;
+            top: 50%;
+            //Le asignamos un ancho y alto al logo
+            .whatsapp{
+                transition: 10s;
+            }
+            //Animacion
+            .whatsapp:hover{
+                transition: 10s;
+                transform: rotate(360deg);
+            }
+        }
+    }
+}
+ //Aplicamos flexbox para convertir en fila, centramos y damos margen
+.gridFooter{
+    @include flexCe;
+    @extend %AlignItemCenter;
+    height: 7rem;
+    //damos alto y ancho al CopyrightLogo, y distancia
+    img{
+        padding: 0.5rem;
+    }
+    //Aplicamos fuente al footer
+    h1{
+        @include fuCoSi(black,'Righteous',1rem);
+        text-align: center;
+    }
+}

@@ -1,0 +1,46 @@
+//Importamos
+@import "Variables.scss";
+//Fin importamos
+//Estilos
+
+%styleBox{
+    background-color: $bg-colorBox1;
+            margin: $mg-Box;
+}
+
+%styleBox2{
+    background-color: $bg-colorBox2;
+            margin: $mg-Box;
+}
+
+%imgStyle{
+    margin: $mg-2r;
+}
+
+%AlignCenter{
+    align-self: center;
+}
+
+%AlignItemCenter{
+    align-items: center;
+}
+
+%imgEstStyle{
+    margin: $mg-2r;
+}
+
+%imgBG{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+%styleClock{
+    display: grid;
+    grid-template-columns: repeat(4,15rem);
+    background-color: $bg-calendar;
+    margin: 0.5rem 0rem;
+    &:hover{
+        background-color: rgb(255, 98, 41);
+    }
+}

@@ -1,0 +1,59 @@
+//Importar estilos
+@import "../Utilidades/Mixin.scss";
+@import "../Utilidades/Variables.scss";
+@import "../Utilidades/Extend.scss";
+//Fin importar
+
+/* Estilos Index */
+div{
+    //Estructura grid
+    .GridMain{
+        @include grid;
+        grid-template-areas: 
+        "Sepa Sepa Sepa Sepa"
+        "Video Video Video Video"
+        "Box1 Box2 Box3 Box4"
+        ;
+        //Aplicamos flexbox, centramos y le damos margen
+        .videoYoutube{
+            overflow:hidden;
+            @include flexCe;
+            margin: $mg-2r;
+            position: relative;
+            grid-area: Video;
+            top: -5rem;
+        }
+        //Aplicamos Grid-Area a los Box
+        //Color de fondo a la caja y margenes laterales
+        //aplicamos Flexbox, centramos y margen
+        .gridBox1{
+            @include gridCe(Box1);
+            @extend %styleBox;
+        }
+        .gridBox2{
+            @include gridCe(Box2);
+            @extend %styleBox2;
+        }
+        .gridBox3{
+            @include gridCe(Box3);
+            @extend %styleBox;
+        }
+        .gridBox4{
+            @include gridCe(Box4);
+            @extend %styleBox2;
+        }
+        div{
+            .imgIndex{
+                margin: 10px;
+            }
+            //Asignamos fuente y color a los titulos
+            .titleBox{
+                @include fuCoSi(orange,'Tangerine',1.5rem);
+            }
+            //Aplicamos fuente, color y padding
+            p{
+                @include fuCoSi(rgb(151, 143, 126),'Island+Moments',1rem);
+            }
+        }
+    }
+}

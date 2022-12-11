@@ -1,0 +1,30 @@
+//Importamos
+@import "Extend.scss";
+//Fin importar
+/* Colocamos una imagen de fondo y la centramos */
+div{
+        #nosotrosPage{
+            background-image: url(../img/Nosotros.jpg);
+            @extend %imgBG;
+        }
+        
+        #horariosPage{
+            background-image: url(../img/Horarios.png);
+            @extend %imgBG;
+        }
+ 
+        #clasesPage{
+            background-image: url(../img/clases.jpg);
+            @extend %imgBG;
+        }
+        
+        #esteticaPage{
+            background-image: url(../img/estetica.png);
+            @extend %imgBG;
+        }
+        
+        #contactoPage{
+            background-image: url(../img/contacto.jpg);
+            @extend %imgBG;
+        }
+}
